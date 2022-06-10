@@ -46,7 +46,7 @@ public class MainMenuManager : MonoBehaviour {
 
     public void SwitchToMainMenu() {
         IsMainMenuUp = true;
-
+ 
         // Transition to menu camera
         _menuVCam.Priority = 1;
         _gameVCam.Priority = 0;

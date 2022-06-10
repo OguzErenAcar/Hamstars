@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour {
     private const float GameLength = 60;
 
     private float TimeRemaining = GameLength;
+    
 
     private void Update() {
         if (StartTimer) {
@@ -23,6 +24,7 @@ public class Timer : MonoBehaviour {
                 StartTimer = false;
             }
         }
+        print(GetTimeString());
     }
 
     public string GetTimeString() {
